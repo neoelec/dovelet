@@ -1,0 +1,4 @@
+TARGET		:= ::PROJECT::
+SRCS		:= $(TARGET).cpp
+
+include ../../cpp.mk
