@@ -9,7 +9,7 @@ void __op_read(void) {
 }
 
 #define __op_print_operator(op) \
-    cout << a << #op << b << '=' << a op b << endl;
+	cout << a << #op << b << '=' << a op b << endl;
 
 void __op_solve_and_print_result(void) {
 	__op_print_operator(+);
