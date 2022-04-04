@@ -19,7 +19,9 @@ void __tiles_print_result(void) {
 }
 
 int main(int argc, char *argv[]) {
-	tiles();
+	__tiles_read();
+	__tiles_solve();
+	__tiles_print_result();
 
 	return 0;
 }
