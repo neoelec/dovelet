@@ -1,4 +1,4 @@
-TARGET		:= paint_block
+TARGET		:= paintblock
 SRCS		:= $(TARGET).cpp
 
 include ../../cpp.mk
