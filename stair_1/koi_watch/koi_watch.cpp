@@ -5,12 +5,12 @@ using namespace std;
 int second, minute, hour;
 int time_to_cook;
 
-void __koi_read(void) {
+void __watch_read(void) {
 	cin >> hour >> minute >> second;
 	cin >> time_to_cook;
 }
 
-void __koi_solve(void) {
+void __watch_solve(void) {
 	minute += hour * 60;
 	second += minute * 60;
 	second += time_to_cook;
@@ -24,16 +24,16 @@ void __koi_solve(void) {
 	hour = hour % 24;
 }
 
-void __koi_print_result(void) {
+void __watch_print_result(void) {
 	cout << hour << ' ';
 	cout << minute << ' ';
 	cout << second << endl;
 }
 
 int main(int argc, char *argv[]) {
-	__koi_read();
-	__koi_solve();
-	__koi_print_result();
+	__watch_read();
+	__watch_solve();
+	__watch_print_result();
 
 	return 0;
 }
